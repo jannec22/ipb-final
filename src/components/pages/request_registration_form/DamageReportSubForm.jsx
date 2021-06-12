@@ -40,26 +40,33 @@ const DamageReportSubForm = ({ damageReport = [], setDamageReport }) => {
   const [newDamage, setNewDamage] = useState("")
 
   return (
-    <Form.Group>
-      {
-        damages.map((damage, i) => (
-          <DamageItemForm
-            key={`damage-${i}`}
-            damage={damage}
-            setDamage={damage => {
-              let copy = [...damages]
+    <>
+      <Form.Group>
+        <Form.Label>Reported Damages:</Form.Label>
+        {
+          damages.length > 0 ? (
+            damages.map((damage, i) => (
+              <DamageItemForm
+                key={`damage-${i}`}
+                damage={damage}
+                setDamage={damage => {
+                  let copy = [...damages]
 
-              copy[i] = damage
+                  copy[i] = damage
 
-              setDamageReport(old => ({ ...old, damages: copy }))
-            }}
-            onDelete={() => setDamageReport(old => ({ ...old, damages: damages.splice(i, 1) }))} />
-        ))
-      }
+                  setDamageReport(old => ({ ...old, damages: copy }))
+                }}
+                onDelete={() => setDamageReport(old => ({ ...old, damages: damages.splice(i, 1) }))} />
+            ))
+          ) : (
+            <Form.Text>No Damages Reported</Form.Text>
+          )
+        }
+      </Form.Group>
 
       {
         editing ? (
-          <>
+          <Form.Group>
             <Form.Control
               value={newDamage}
               onChange={({ target }) => setNewDamage(target.value)}
@@ -76,14 +83,14 @@ const DamageReportSubForm = ({ damageReport = [], setDamageReport }) => {
             }} variant="success">
               Save
           </Button>
-          </>
+          </Form.Group>
         ) : (
           <Button onClick={() => setEditing(true)} variant="success">
             Add
           </Button>
         )
       }
-    </Form.Group>
+    </>
   )
 }
 

@@ -19,7 +19,7 @@ const RepairRequestForm = ({
 }) => {
   const [damageReport, setDamageReport] = useState(initialDamageReport)
   const [device, setDevice] = useState(initialDevice)
-
+  
   console.log(damageReport, device)
 
   return (

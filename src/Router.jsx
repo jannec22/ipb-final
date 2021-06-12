@@ -23,7 +23,7 @@ const Router = () => (
       <Route path="/customer">
         <BaseLayout>
           <Switch>
-            <Route exact path="/customer/requests">
+            <Route exact path="/customer/new">
               <RepairRequestForm />
             </Route>
             
