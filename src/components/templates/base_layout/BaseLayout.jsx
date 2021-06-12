@@ -11,10 +11,6 @@ const BaseLayout = ({ children }) => (
       <div className="d-flex justify-content-end">
         <ButtonGroup>
           <Button variant="link">
-            <Link to="/">Home</Link>
-          </Button>
-
-          <Button variant="link">
             <Link to="/customer">Customer</Link>
           </Button>
 
@@ -24,14 +20,12 @@ const BaseLayout = ({ children }) => (
         </ButtonGroup>
       </div>
     </header>
-    <section className="flex-grow-1">
-      {children}
-    </section>
+    <section className="flex-grow-1">{children}</section>
 
     <footer className="w-100 bg-light p-3">
       <strong>Made by s18749 & s18349</strong>
     </footer>
   </section>
-)
+);
 
-export default BaseLayout
+export default BaseLayout;

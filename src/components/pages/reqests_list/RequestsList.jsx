@@ -1,57 +1,46 @@
-import { Button } from "bootstrap"
-import { Table } from "react-bootstrap"
-import { storeContext } from "../../hoc/store_context/StoreContext"
-import { useContext } from "react"
+import { Table } from "react-bootstrap";
+import { storeContext } from "../../hoc/store_context/StoreContext";
+import { useContext } from "react";
+import { useHistory } from "react-router";
 
-const RequestList = () => {
-  const { requests = [] } = useContext(storeContext)
+const RequestList = ({ type }) => {
+  const [state] = useContext(storeContext);
+  const { requests = {} } = state;
+  const { push } = useHistory();
 
   return (
-    <div>
-      <Table>
+    <div className="p-5">
+      <Table striped bordered hover>
         <thead>
           <tr>
             <th>RequestId</th>
-            <th>CustomerId</th>
+            <th>Customer name</th>
             <th>Warranty stat</th>
-            <th>Consent</th>
+            <th>Damages</th>
             <th>Approx cost</th>
             <th>Actual cost</th>
             <th>Status</th>
           </tr>
         </thead>
         <tbody>
-          {
-            requests.map((request, i) => (
-              <tr key={`request-${i}`}>
-                <td>
-                  {request.requestId}
-                </td>
-                <td>
-                  {request.customerId}
-                </td>
-                <td>
-                  {request.warrantyStat}
-                </td>
-                <td>
-                  {request.consent}
-                </td>
-                <td>
-                  {request.approxCost}
-                </td>
-                <td>
-                  {request.actualCost}
-                </td>
-                <td>
-                  {request.status && request.status === "queue" && <Button variant="outline-primary">Accept</Button>}
-                </td>
-              </tr>
-            ))
-          }
+          {Object.values(requests).map((request, i) => (
+            <tr
+              onClick={() => push(`/${type}/requests/${request.id}`)}
+              key={`request-${i}`}
+            >
+              <td>{request.id}</td>
+              <td>{request.user.username}</td>
+              <td>{request.device.warranty.status}</td>
+              <td>{request.damageReport.damages.length}</td>
+              <td>{request.approxCost}</td>
+              <td>{request.actualCost}</td>
+              <td>{request.status}</td>
+            </tr>
+          ))}
         </tbody>
       </Table>
     </div>
-  )
-}
+  );
+};
 
-export default RequestList
+export default RequestList;

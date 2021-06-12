@@ -6,3 +6,8 @@
   display: flex;
   flex-direction: column;
 }
+
+a,
+a:hover {
+  text-decoration: none !important;
+}

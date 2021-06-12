@@ -1,15 +1,39 @@
-import "./index.scss"
+import "./index.scss";
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Router from "./Router"
-import StoreContext from "./components/hoc/store_context/StoreContext"
+import DamageReport from "./model/DamageReport";
+import Device from "./model/Device";
+import React from "react";
+import ReactDOM from "react-dom";
+import RepairRequest from "./model/RepairRequest";
+import Router from "./Router";
+import StoreContext from "./components/hoc/store_context/StoreContext";
+import User from "./model/User";
+import Warranty from "./model/Warranty";
+
+const first = new RepairRequest();
+
+first.id = "first";
+first.status = RepairRequest.Status.queue;
+first.user = new User();
+first.user.username = "someone";
+first.damageReport = new DamageReport();
+first.device = new Device();
+first.device.warranty = new Warranty();
+first.approxCost = 0;
+first.actualCost = 0;
 
 ReactDOM.render(
   <React.StrictMode>
-    <StoreContext>
+    <StoreContext
+      initial={{
+        user: new User(),
+        requests: {
+          first,
+        },
+      }}
+    >
       <Router />
     </StoreContext>
   </React.StrictMode>,
-  document.getElementById('root')
-)
+  document.getElementById("root")
+);
