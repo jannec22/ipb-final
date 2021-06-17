@@ -1,0 +1,151 @@
+%% Creator: Inkscape 1.1 (c4e8f9ed74, 2021-05-24), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'optimized_bpmn.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1681.875bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.11316656)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{optimized_bpmn.pdf}}%
+    \put(0.06042363,0.78763701){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}HP Service system\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{optimized_bpmn.pdf}}%
+    \put(0.24593088,0.84828361){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}check the warranty\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{optimized_bpmn.pdf}}%
+    \put(0.16120401,0.84828361){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}calculate approximat...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{optimized_bpmn.pdf}}%
+    \put(0.36187291,0.88172843){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}notify client about...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{optimized_bpmn.pdf}}%
+    \put(0.30925307,0.88217436){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}invalid\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{optimized_bpmn.pdf}}%
+    \put(0.43768116,0.88172843){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}get client's consent\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{optimized_bpmn.pdf}}%
+    \put(0.51348941,0.88172843){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}send invoice\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{optimized_bpmn.pdf}}%
+    \put(0.64726867,0.82375741){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}evaluate damage level\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{optimized_bpmn.pdf}}%
+    \put(0.78506132,0.87949877){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}send technician\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{optimized_bpmn.pdf}}%
+    \put(0.78506132,0.8148388){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}send delivery man\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{optimized_bpmn.pdf}}%
+    \put(0.61605351,0.87726912){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}add to database\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{optimized_bpmn.pdf}}%
+    \put(0.45551839,0.82821672){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}cancel request\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{optimized_bpmn.pdf}}%
+    \put(0.06042363,0.50670056){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Technician\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{optimized_bpmn.pdf}}%
+    \put(0.21100022,0.50491683){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}fix the laptop \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{optimized_bpmn.pdf}}%
+    \put(0.05596433,0.11428138){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Maintenance Specialist\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{optimized_bpmn.pdf}}%
+    \put(0.16566332,0.11249766){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}analyse the problem\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{optimized_bpmn.pdf}}%
+    \put(0.57190635,0.11472731){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}fix the laptop\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{optimized_bpmn.pdf}}%
+    \put(0.26376812,0.08351215){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}estimate repair cost\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{optimized_bpmn.pdf}}%
+    \put(0.3574136,0.08351215){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}notify the client ab...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{optimized_bpmn.pdf}}%
+    \put(0.29186176,0.17136054){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}warranty is valid\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{optimized_bpmn.pdf}}%
+    \put(0.65618729,0.11472731){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}notify client about...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{optimized_bpmn.pdf}}%
+    \put(0.42430323,0.08351215){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}get client consent\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{optimized_bpmn.pdf}}%
+    \put(0.51125975,0.08395808){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}yes\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{optimized_bpmn.pdf}}%
+    \put(0.58037904,0.06389119){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}no\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{optimized_bpmn.pdf}}%
+    \put(0.35250836,0.13434827){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}higher costs\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{optimized_bpmn.pdf}}%
+    \put(0.406466,0.15218551){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}same or lower\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{optimized_bpmn.pdf}}%
+    \put(0.34715719,0.19053556){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}laptop\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{optimized_bpmn.pdf}}%
+    \put(0.6361204,0.19053556){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{optimized_bpmn.pdf}}%
+    \put(0.05373467,1.02843969){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Customer\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{optimized_bpmn.pdf}}%
+    \put(0.1812709,0.9419291){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}repair request containing...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{optimized_bpmn.pdf}}%
+    \put(0.34626533,0.59633266){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}database\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{optimized_bpmn.pdf}}%
+    \put(0.80557414,0.92632152){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}A\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{optimized_bpmn.pdf}}%
+    \put(0.12329989,0.58295474){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}A\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{optimized_bpmn.pdf}}%
+    \put(0.406466,0.92186221){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}cost\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{optimized_bpmn.pdf}}%
+    \put(0.48004459,0.92186221){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}consent\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{optimized_bpmn.pdf}}%
+    \put(0.5580825,0.92186221){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}invoice\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{optimized_bpmn.pdf}}%
+    \put(0.80557414,0.6141699){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}B\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{optimized_bpmn.pdf}}%
+    \put(0.05596433,0.31049097){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Delivery man\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{optimized_bpmn.pdf}}%
+    \put(0.2057971,0.30870725){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}pickup laptop\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{optimized_bpmn.pdf}}%
+    \put(0.29944259,0.30915318){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}deliver to the repai...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{optimized_bpmn.pdf}}%
+    \put(0.10992196,0.38228584){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}B\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{optimized_bpmn.pdf}}%
+    \put(0.3574136,0.00012308){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{optimized_bpmn.pdf}}%
+    \put(0.42430323,0.00012308){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{optimized_bpmn.pdf}}%
+    \put(0.95273133,0.98429253){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{optimized_bpmn.pdf}}%
+    \put(0.9522854,1.02888562){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{optimized_bpmn.pdf}}%
+    \put(0.97725753,1.07793802){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}notifi...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=47]{optimized_bpmn.pdf}}%
+    \put(0.99063545,0.94861806){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}decisi...\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

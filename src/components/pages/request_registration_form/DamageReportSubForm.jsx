@@ -82,7 +82,7 @@ const DamageReportSubForm = ({ damageReport = [], setDamageReport }) => {
               setNewDamage("")
             }} variant="success">
               Save
-          </Button>
+            </Button>
           </Form.Group>
         ) : (
           <Button onClick={() => setEditing(true)} variant="success">

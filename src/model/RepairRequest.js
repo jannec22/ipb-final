@@ -1,8 +1,9 @@
-import DamageReport from "./DamageReport";
-import Device from "./Device";
-import User from "./User";
+import DamageReport from "./DamageReport"
+import Device from "./Device"
+import User from "./User"
 export default class RepairRequest {
-  id;
+  id
+  consent = false
   user = new User();
   damageReport = new DamageReport();
   device = new Device();

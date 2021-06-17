@@ -1,13 +1,12 @@
-import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
+import { HashRouter, Redirect, Route, Switch } from "react-router-dom"
 
-import BaseLayout from "./components/templates/base_layout/BaseLayout";
-import React from "react";
-import RepairRequestForm from "./components/pages/request_registration_form/RepairRequestForm";
-import RequestDetail from "./components/pages/reqests_list/RequestDetail";
-import RequestList from "./components/pages/reqests_list/RequestsList";
+import BaseLayout from "./components/templates/base_layout/BaseLayout"
+import React from "react"
+import RequestDetail from "./components/pages/requests_list/RequestDetail"
+import RequestList from "./components/pages/requests_list/RequestsList"
 
 const Router = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route exact path="/">
         <Redirect to="/customer" />
@@ -17,11 +16,7 @@ const Router = () => (
         <BaseLayout>
           <Switch>
             <Route exact path="/customer/requests/:id">
-              <RequestDetail />
-            </Route>
-
-            <Route exact path="/customer/new">
-              <RepairRequestForm />
+              <RequestDetail type="customer" />
             </Route>
 
             <Route exact path="/customer">
@@ -35,7 +30,7 @@ const Router = () => (
         <BaseLayout>
           <Switch>
             <Route exact path="/employee/requests/:id">
-              <RequestDetail />
+              <RequestDetail type="employee" />
             </Route>
 
             <Route exact path="/employee">
@@ -47,7 +42,7 @@ const Router = () => (
 
       <Redirect from="*" to="/" />
     </Switch>
-  </BrowserRouter>
-);
+  </HashRouter>
+)
 
-export default Router;
+export default Router
